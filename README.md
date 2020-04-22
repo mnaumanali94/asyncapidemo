@@ -25,5 +25,7 @@ ag streetlights.yaml @asyncapi/nodejs-template -o output -p server=production
 ```
 
 Also please find the slide deck in the repo. 
+
 *Nauman Ali*
+
 https://www.linkedin.com/in/nauman-ali/
