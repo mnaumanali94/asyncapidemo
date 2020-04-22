@@ -1,0 +1,13 @@
+extends: spectral:asyncapi2
+rules:
+   channels-kebab-case:
+     description: Should channels be kebab-case.
+     message: '{{property}} is not kebab-case: {{error}}'
+     given: $.channels[*]~
+     then:
+       function: casing
+       functionOptions:
+         type: kebab
+         separator:
+           char: "/"
+    
